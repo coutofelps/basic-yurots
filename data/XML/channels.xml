@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+	<!-- README:
+		0 - Dynamic, reserved for guilds
+		1 - Always acts as Party Channel, only "name" tag available
+		3 - Always acts as Rule Violations Channel
+		9 - Acts as Help Channel - Clientsided message
+		65535 - DO NOT CHANGE THE ID - Only "name", "enabled", "active" and "logged" tags available
+	-->
+
+	<channel id="1" name="Party"/>
+
+	<channel access="3" id="2" name="Staff"/>
+
+	<channel id="3" logged="yes" name="Rule Violations"/>
+
+	<channel access="1" id="4" name="Counselor"/>
+
+	<channel id="5" level="2" name="Game-Chat"/>
+
+	<channel conditionId="2" conditionMessage="You may only place one offer in two minutes." id="6" level="8" muted="120" name="Trade">
+		<vocation id="1-8"/>
+	</channel>
+
+	<channel conditionId="3" conditionMessage="You may only place one offer in two minutes." id="7" level="2" muted="120" name="Trade-Rookgaard">
+		<vocation id="0"/>
+	</channel>
+
+	<channel id="8" level="2" name="RL-Chat"/>
+
+	<channel id="9" logged="yes" name="Help"/>
+
+	<channel id="65535" name="Private Chat Channel"/>
+</channels>

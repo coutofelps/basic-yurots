@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+
+	<event type="joinchannel" name="GuildMotd" event="script" value="guild-motd.lua"/>
+	<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="SaveReportBug" script="report-bug.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advance-save.lua"/>
+
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+ 	<event type="login" name="FirstItems" event="script" value="first-items.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skull-check.lua"/>
+</creaturescripts>

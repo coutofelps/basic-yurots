@@ -1,0 +1,4 @@
+# Gitignore file
+
+# Ignoring all inside logs folder
+logs/*
