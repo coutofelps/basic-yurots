@@ -1,5 +1,6 @@
 Things to do List
 
+Lost commits
 - Add all The Pits of Inferno Quest reward chests;
 - Add all The Pharaoh Challenge Quest reward chests;
 - Indent all actions/libs/other files with a pattern [DONE];
@@ -11,3 +12,7 @@ Things to do List
 - Add a gitignore file [DONE];
 - Indent and fix all possible bugs on data/lib folder [DONE];
 - Indent and fix all possible bugs on data/movements folder [DONE].
+
+New commits
+- The folder data/monster will be last to fixed.
+- CONTINUE ON data/npc.
