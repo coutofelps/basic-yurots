@@ -11,7 +11,8 @@ Lost commits
 - Indent and fix all possible bugs on items/items.xml [DONE];
 - Add a gitignore file [DONE];
 - Indent and fix all possible bugs on data/lib folder [DONE];
-- Indent and fix all possible bugs on data/movements folder [DONE].
+- Indent and fix all possible bugs on data/movements folder [DONE];
+- Indent and fix all possible bugs on data/raids folder [DONE].
 
 New commits
 - The folder data/monster will be last to fixed.

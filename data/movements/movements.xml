@@ -38,7 +38,7 @@
 	<!-- Citizen teleport -->
 	<movevent type="StepIn" itemid="1387" event="script" value="citizen.lua"/>
 
-	<!-- walk-back when walking on quest chest -->
+	<!-- Walk-back when walking on quest chest -->
 	<movevent type="StepIn" itemid="1738" event="script" value="walk-back.lua"/>
 	<movevent type="StepIn" itemid="1740" event="script" value="walk-back.lua"/>
 	<movevent type="StepIn" fromid="1746" toid="1749" event="script" value="walk-back.lua"/>
