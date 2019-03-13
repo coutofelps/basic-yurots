@@ -15,5 +15,5 @@ Lost commits
 - Indent and fix all possible bugs on data/raids folder [DONE].
 
 New commits
-- The folder data/monster will be last to fixed.
-- CONTINUE ON data/npc.
+- The folder data/monster will be last to fixed;
+- Indent and fix all possible bugs on data/npc folder.
