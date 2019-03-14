@@ -3,10 +3,10 @@ local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
 local talkState = {}
 
-function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid)			end
-function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid)			end
-function onCreatureSay(cid, type, msg)			npcHandler:onCreatureSay(cid, type, msg)		end
-function onThink()					npcHandler:onThink()					end
+function onCreatureAppear(cid) npcHandler:onCreatureAppear(cid) end
+function onCreatureDisappear(cid) npcHandler:onCreatureDisappear(cid) end
+function onCreatureSay(cid, type, msg) npcHandler:onCreatureSay(cid, type, msg) end
+function onThink() npcHandler:onThink() end
 
 local shopModule = ShopModule:new()
 npcHandler:addModule(shopModule)
@@ -44,7 +44,7 @@ shopModule:addBuyableItem({'paralyze'}, 2278, 700, 2, 'paralyze rune')
 shopModule:addBuyableItem({'animate dead'}, 2316, 375, 1, 'animate dead rune')
 shopModule:addBuyableItem({'convince creature'}, 2290, 80, 1, 'convince creature rune')
 shopModule:addBuyableItem({'chameleon'}, 2291, 210, 1, 'chameleon rune')
-shopModule:addBuyableItem({'desintegrate'}, 2310, 80,  3, 'desintegreate rune')
+shopModule:addBuyableItem({'desintegrate'}, 2310, 80, 3, 'desintegreate rune')
 
 shopModule:addBuyableItemContainer({'bp sd'}, 2003, 2268, 7020, 50, 'backpack of sudden deaths')
 shopModule:addBuyableItemContainer({'bp uh'}, 2002, 2268, 7021, 50, 'backpack of ultimate healing')
@@ -73,7 +73,7 @@ shopModule:addBuyableItem({'northwind rod', 'northwind'}, 8911, 7500, 'northwind
 shopModule:addBuyableItem({'terra rod', 'terra'}, 2181, 10000, 'terra rod')
 shopModule:addBuyableItem({'hailstorm rod', 'hailstorm'}, 2183, 15000, 'hailstorm rod')
 shopModule:addBuyableItem({'springsprout rod', 'springsprout'}, 8912, 18000, 'springsprout rod')
-shopModule:addBuyableItem({'underworld rod', 'underworld'}, 8910, 22000,  'underworld rod')
+shopModule:addBuyableItem({'underworld rod', 'underworld'}, 8910, 22000, 'underworld rod')
 
 shopModule:addSellableItem({'wand of vortex', 'vortex'}, 2190, 500, 'wand of vortex')
 shopModule:addSellableItem({'wand of dragonbreath', 'dragonbreath'}, 2191, 1000, 'wand of dragonbreath')
@@ -91,41 +91,40 @@ shopModule:addSellableItem({'northwind rod', 'northwind'}, 8911, 7500, 'northwin
 shopModule:addSellableItem({'terra rod', 'terra'}, 2181, 10000, 'terra rod')
 shopModule:addSellableItem({'hailstorm rod', 'hailstorm'}, 2183, 15000, 'hailstorm rod')
 shopModule:addSellableItem({'springsprout rod', 'springsprout'}, 8912, 18000, 'springsprout rod')
-shopModule:addSellableItem({'underworld rod', 'underworld'}, 8910, 22000,  'underworld rod')
-
+shopModule:addSellableItem({'underworld rod', 'underworld'}, 8910, 22000, 'underworld rod')
 
 function creatureSayCallback(cid, type, msg)
-	if(not npcHandler:isFocused(cid)) then
-		return false
-	end
+    if(not npcHandler:isFocused(cid)) then
+        return false
+    end
 
-	local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
+    local talkUser = NPCHANDLER_CONVBEHAVIOR == CONVERSATION_DEFAULT and 0 or cid
 
-	local items = {[1] = 2190, [2] = 2182, [5] = 2190, [6] = 2182}
-	if(msgcontains(msg, 'first rod') or msgcontains(msg, 'first wand')) then
-		if(isSorcerer(cid) or isDruid(cid)) then
-			if(getPlayerStorageValue(cid, 30002) == -1) then
-				selfSay('So you ask me for a {' .. getItemNameById(items[getPlayerVocation(cid)]) .. '} to begin your advanture?', cid)
-				talkState[talkUser] = 1
-			else
-				selfSay('What? I have already gave you one {' .. getItemNameById(items[getPlayerVocation(cid)]) .. '}!', cid)
-			end
-		else
-			selfSay('Sorry, you aren\'t a druid either a sorcerer.', cid)
-		end
-	elseif(msgcontains(msg, 'yes')) then
-		if(talkState[talkUser] == 1) then
-			doPlayerAddItem(cid, items[getPlayerVocation(cid)], 1)
-			selfSay('Here you are young adept, take care yourself.', cid)
-			setPlayerStorageValue(cid, 30002, 1)
-		end
-		talkState[talkUser] = 0
-	elseif(msgcontains(msg, 'no') and isInArray({1}, talkState[talkUser]) == TRUE) then
-		selfSay('Ok then.', cid)
-		talkState[talkUser] = 0
-	end
+    local items = {[1] = 2190, [2] = 2182, [5] = 2190, [6] = 2182}
+    if(msgcontains(msg, 'first rod') or msgcontains(msg, 'first wand')) then
+        if(isSorcerer(cid) or isDruid(cid)) then
+            if(getPlayerStorageValue(cid, 30002) == -1) then
+                selfSay('So you ask me for a {' .. getItemNameById(items[getPlayerVocation(cid)]) .. '} to begin your adventure?', cid)
+                talkState[talkUser] = 1
+            else
+                selfSay('What? I have already gave you one {' .. getItemNameById(items[getPlayerVocation(cid)]) .. '}!', cid)
+            end
+        else
+            selfSay('Sorry, you aren\'t a druid either a sorcerer.', cid)
+        end
+    elseif(msgcontains(msg, 'yes')) then
+        if(talkState[talkUser] == 1) then
+            doPlayerAddItem(cid, items[getPlayerVocation(cid)], 1)
+            selfSay('Here you are young adept, take care yourself.', cid)
+            setPlayerStorageValue(cid, 30002, 1)
+        end
+        talkState[talkUser] = 0
+    elseif(msgcontains(msg, 'no') and isInArray({1}, talkState[talkUser]) == TRUE) then
+        selfSay('Ok then.', cid)
+        talkState[talkUser] = 0
+    end
 
-	return true
+    return true
 end
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)

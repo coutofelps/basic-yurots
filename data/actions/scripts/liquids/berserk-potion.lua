@@ -5,10 +5,10 @@ setConditionParam(condition, CONDITION_PARAM_SKILL_SHIELD, -10)
 setConditionParam(condition, CONDITION_PARAM_SUBID, 99)
 
 function onUse(cid, item, fromPosition, itemEx, toPosition)
-	if(doAddCondition(cid, condition)) then
-		doSendMagicEffect(fromPosition, CONST_ME_MAGIC_RED)
-		doRemoveItem(item.uid)
-	end
+    if(doAddCondition(cid, condition)) then
+        doSendMagicEffect(fromPosition, CONST_ME_MAGIC_RED)
+        doRemoveItem(item.uid)
+    end
 
-	return true
+    return true
 end

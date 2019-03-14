@@ -1,68 +1,60 @@
 <?xml version="1.0"?>
-
 <interaction>
-  <!--armor list-->
-  <itemlist listid="armor">
-    <item keywords="brass;armor" id="2465" sellprice="200" buyprice="200"/>
-    <item keywords="golden;armor" id="2466" sellprice="200" buyprice="200"/>
-    <item keywords="leather;armor" id="2467" sellprice="10" buyprice="100"/>
-    <item keywords="magic;plate;armor" id="2472" sellprice="50000" buyprice="100"/>
-  </itemlist>
-
-  <itemlist listid="helmet">
-    <item keywords="crown" id="2128" sellprice="100000" buyprice="1000"/>
-    <item keywords="steel;helmet" id="2457" sellprice="165" buyprice="1000"/>
-    <item keywords="demon;helmet" id="2493" sellprice="1000" buyprice="200"/>
-    <item keywords="horned;helmet" id="2496" sellprice="10" buyprice="300"/>
-    <item keywords="mystic;turban" id="2663" sellprice="200" buyprice="5000"/>
-  </itemlist>
-
-  <!--food list-->
-  <itemlist listid="food">
-    <item keywords="meat" id="2666" sellprice="8" buyprice="2"/>
-    <item keywords="ham" id="2671" sellprice="10" buyprice="2"/>
-    <item keywords="dragon;ham" id="2672" sellprice="20" buyprice="5"/>
-  </itemlist>
-
-  <!--tapestry list-->
-  <itemlist listid="tapestry">
-    <item keywords="purple;tapestry" id="1857" sellprice="40" buyprice="10"/>
-    <item keywords="green;tapestry" id="1860" sellprice="40" buyprice="10"/>
-    <item keywords="yellow;tapestry" id="1863" sellprice="40" buyprice="10"/>
-    <item keywords="orange;tapestry" id="1866" sellprice="40" buyprice="10"/>
-    <item keywords="red;tapestry" id="1869" sellprice="40" buyprice="10"/>
-  </itemlist>
-
-  <!--vial list-->
-  <itemlist listid="vials">
-    <!--If no name tag is used the default name from items.xml is used.-->
-    <!--With fluid containers it would be "vial", so we override that description here-->
-    <item keywords="vial;water" id="2006" subtype="1" sellprice="100" name="a vial of water" pname="vials of water"/>
-    <item keywords="vial;blood" id="2006" subtype="2" sellprice="100" name="a vial of blood" pname="vials of blood"/>
-    <item keywords="vial;beer" id="2006" subtype="3" sellprice="100" name="a vial of beer" pname="vials of beer"/>
-    <item keywords="vial;slime" id="2006" subtype="4" sellprice="100" name="a vial of slime" pname="vials of slime"/>
-    <item keywords="vial;lemonade" id="2006" subtype="5" sellprice="100" name="a vial of lemonade" pname="vials of lemonade"/>
-  </itemlist>
-
-  <!--backpack list-->
-  <itemlist listid="backpack">
-    <!--If no name tag is used the default name from items.xml is used.-->
-    <!--With backpacks it would be just "backpack" regardless of color, so we override that description here-->
-    <item keywords="brown;backpack" id="1988" sellprice="20" buyprice="40" name="a brown backpack" pname="brown backpacks"/>
-    <item keywords="green;backpack" id="1998" sellprice="20" buyprice="40" name="a green backpack" pname="green backpacks"/>
-    <item keywords="red;backpack" id="2000" sellprice="20" buyprice="40" name="a red backpack" pname="red backpacks"/>
-    <item keywords="purple;backpack" id="2001" sellprice="20" buyprice="40" name="a purple backpack" pname="purple backpacks"/>
-    <item keywords="blue;backpack" id="2002" sellprice="20" buyprice="40" name="a blue backpack" pname="blue backpacks"/>
-    <item keywords="yellow;backpack" id="2004" sellprice="20" buyprice="40" name="a yellow backpack" pname="green backpacks"/>
-  </itemlist>
-
-  <!-- Rune list -->
-  <itemlist listid="runes">
-    <!--If no name tag is used the default name from items.xml is used.-->
-    <!--With runes it would be "rune spell", so we override that description here-->
-    <item keywords="sudden;death" id="2268" subtype="100" sellprice="600" name="a sudden death rune" pname="sudden death runes"/>
-    <item keywords="heavy;magic;missile" id="2311" sellprice="400" name="a heavy magic missile" pname="heavy magic missiles"/>
-    <item keywords="ultimate;healing;rune" id="2273" sellprice="400" name="an ultimate healing rune" pname="ultimate healing runes"/>
-  </itemlist>
-
+    <!-- Armor list -->
+    <itemlist listid="armor">
+        <item buyprice="200" id="2465" keywords="brass;armor" sellprice="200"/>
+        <item buyprice="200" id="2466" keywords="golden;armor" sellprice="200"/>
+        <item buyprice="100" id="2467" keywords="leather;armor" sellprice="10"/>
+        <item buyprice="100" id="2472" keywords="magic;plate;armor" sellprice="50000"/>
+    </itemlist>
+    <itemlist listid="helmet">
+        <item buyprice="1000" id="2128" keywords="crown" sellprice="100000"/>
+        <item buyprice="1000" id="2457" keywords="steel;helmet" sellprice="165"/>
+        <item buyprice="200" id="2493" keywords="demon;helmet" sellprice="1000"/>
+        <item buyprice="300" id="2496" keywords="horned;helmet" sellprice="10"/>
+        <item buyprice="5000" id="2663" keywords="mystic;turban" sellprice="200"/>
+    </itemlist>
+    <!-- Food list -->
+    <itemlist listid="food">
+        <item buyprice="2" id="2666" keywords="meat" sellprice="8"/>
+        <item buyprice="2" id="2671" keywords="ham" sellprice="10"/>
+        <item buyprice="5" id="2672" keywords="dragon;ham" sellprice="20"/>
+    </itemlist>
+    <!-- Tapestry list -->
+    <itemlist listid="tapestry">
+        <item buyprice="10" id="1857" keywords="purple;tapestry" sellprice="40"/>
+        <item buyprice="10" id="1860" keywords="green;tapestry" sellprice="40"/>
+        <item buyprice="10" id="1863" keywords="yellow;tapestry" sellprice="40"/>
+        <item buyprice="10" id="1866" keywords="orange;tapestry" sellprice="40"/>
+        <item buyprice="10" id="1869" keywords="red;tapestry" sellprice="40"/>
+    </itemlist>
+    <!-- Vial list-->
+    <itemlist listid="vials">
+        <!-- If no name tag is used the default name from items.xml is used. -->
+        <!-- With fluid containers it would be "vial", so we override that description here. -->
+        <item id="2006" keywords="vial;water" name="a vial of water" pname="vials of water" sellprice="100" subtype="1"/>
+        <item id="2006" keywords="vial;blood" name="a vial of blood" pname="vials of blood" sellprice="100" subtype="2"/>
+        <item id="2006" keywords="vial;beer" name="a vial of beer" pname="vials of beer" sellprice="100" subtype="3"/>
+        <item id="2006" keywords="vial;slime" name="a vial of slime" pname="vials of slime" sellprice="100" subtype="4"/>
+        <item id="2006" keywords="vial;lemonade" name="a vial of lemonade" pname="vials of lemonade" sellprice="100" subtype="5"/>
+    </itemlist>
+    <!-- Backpack list -->
+    <itemlist listid="backpack">
+        <!-- If no name tag is used the default name from items.xml is used. -->
+        <!-- With backpacks it would be just "backpack" regardless of color, so we override that description here. -->
+        <item buyprice="40" id="1988" keywords="brown;backpack" name="a brown backpack" pname="brown backpacks" sellprice="20"/>
+        <item buyprice="40" id="1998" keywords="green;backpack" name="a green backpack" pname="green backpacks" sellprice="20"/>
+        <item buyprice="40" id="2000" keywords="red;backpack" name="a red backpack" pname="red backpacks" sellprice="20"/>
+        <item buyprice="40" id="2001" keywords="purple;backpack" name="a purple backpack" pname="purple backpacks" sellprice="20"/>
+        <item buyprice="40" id="2002" keywords="blue;backpack" name="a blue backpack" pname="blue backpacks" sellprice="20"/>
+        <item buyprice="40" id="2004" keywords="yellow;backpack" name="a yellow backpack" pname="green backpacks" sellprice="20"/>
+    </itemlist>
+    <!-- Rune list -->
+    <itemlist listid="runes">
+        <!-- If no name tag is used the default name from items.xml is used. -->
+        <!-- With runes it would be "rune spell", so we override that description here. -->
+        <item id="2268" keywords="sudden;death" name="a sudden death rune" pname="sudden death runes" sellprice="600" subtype="100"/>
+        <item id="2311" keywords="heavy;magic;missile" name="a heavy magic missile" pname="heavy magic missiles" sellprice="400"/>
+        <item id="2273" keywords="ultimate;healing;rune" name="an ultimate healing rune" pname="ultimate healing runes" sellprice="400"/>
+    </itemlist>
 </interaction>

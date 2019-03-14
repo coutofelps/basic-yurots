@@ -136,7 +136,7 @@ maxDeathRecords = 5
 
 -- Guilds
 ingameGuildManagement = true
-levelToFormGuild = 8
+levelToFormGuild = 100
 premiumDaysToFormGuild = 0
 guildNameMinLength = 4
 guildNameMaxLength = 20
@@ -149,11 +149,11 @@ updateHighscoresAfterMinutes = 60
 buyableAndSellableHouses = true
 houseNeedPremium = true
 bedsRequirePremium = true
-levelToBuyHouse = 1
+levelToBuyHouse = 100
 housesPerAccount = 0
 houseRentAsPrice = false
 housePriceAsRent = false
-housePriceEachSquare = 1000
+housePriceEachSquare = 10000
 houseRentPeriod = "never"
 houseCleanOld = 0
 guildHalls = false
@@ -173,8 +173,8 @@ cleanProtectedZones = true
 mailboxDisabledTowns = ""
 
 -- Process
--- NOTE: defaultPriority works only on Windows and niceLevel on *nix
--- niceLevel works only on *nix systems
+-- NOTE: defaultPriority works only on Windows and niceLevel on *nix.
+-- niceLevel works only on *nix systems.
 -- coresUsed are seperated by comma cores ids used by server process,
 -- default is -1, so it stays untouched (automaticaly assigned by OS).
 defaultPriority = "high"
@@ -225,7 +225,7 @@ useHouseDataStorage = false
 storePlayerDirection = false
 
 -- Loot
--- monsterLootMessage 0 to disable, 1 - only party, 2 - only player, 3 - party or player (like Tibia's)
+-- monsterLootMessage 0 to disable, 1 - only party, 2 - only player, 3 - party or player (like Tibia's).
 checkCorpseOwner = true
 monsterLootMessage = 3
 monsterLootMessageType = 25
@@ -283,12 +283,10 @@ maxLevelThresholdForKilledPlayer = 1.1
 
 -- Stamina
 -- NOTE: Stamina is stored in miliseconds, so seconds are multiplied by 1000.
--- rateStaminaHits multiplies every hit done a creature, which are later
--- multiplied by player attack speed.
+-- rateStaminaHits multiplies every hit done a creature, which are later multiplied by player attack speed.
 -- rateStaminaGain is multiplying every second of logged out time, eg:
 -- 60 * 1000 / 3 = 20 seconds, what gives 1 stamina minute for 3 being logged off.
--- rateStaminaThresholdGain is dividing in case the normal gain (that is
--- multiplied by rateStaminaGain, btw.) passed above threshold, eg:
+-- rateStaminaThresholdGain is dividing in case the normal gain (that is multiplied by rateStaminaGain, btw.) passed above threshold, eg:
 -- 60 * 1000 / 3 = 20 / 4 = 5 seconds (3 * 4 = 12 minutes for 1 stamina minute).
 -- staminaRatingLimit* is in minutes.
 rateStaminaLoss = 1
@@ -359,7 +357,7 @@ managerConnectionsLimit = 1
 -- NOTE: adminPassword left blank disables manager.
 -- Set to anything if you set adminRequireLogin to false.
 -- adminEncryption available options: rsa1024xtea;
--- remember to set correct data!
+-- Remember to set correct data!
 adminPort = 7171
 adminLogs = true
 adminPassword = ""
