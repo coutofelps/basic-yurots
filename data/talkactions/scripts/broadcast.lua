@@ -4,5 +4,6 @@ function onSay(cid, words, param, channel)
 	end
 
 	doPlayerBroadcastMessage(cid, param)
+
 	return true
 end
