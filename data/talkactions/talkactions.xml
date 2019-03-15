@@ -68,16 +68,16 @@
 	<talkaction words="!q" event="script" value="money.lua"/>
 	<talkaction words="!serverinfo;/serverinfo" event="script" value="serverinfo.lua"/>
 	<talkaction words="!commands;/commands" event="script" value="commands.lua"/>
-	<talkaction words="!software;/software" event="function" value="software"/>
+	<!-- <talkaction words="!software;/software" event="function" value="software"/> -->
 
 	<!-- Houses -->
-	<talkaction words="alevo grav" filter="word-spaced" event="function" value="houseBuy"/>
-	<talkaction words="alito som" filter="word-spaced" event="function" value="houseSell"/>
-	<talkaction words="alana sio" filter="word-spaced" event="function" value="houseKick"/>
-	<talkaction words="aleta grav" filter="word-spaced" event="function" value="houseDoorList"/>
+	<talkaction words="!buyhouse" filter="word-spaced" event="function" value="houseBuy"/>
+	<talkaction words="!sellhouse" filter="word-spaced" event="function" value="houseSell"/>
+	<talkaction words="!housekick" filter="word-spaced" event="function" value="houseKick"/>
+	<talkaction words="alana grav" filter="word-spaced" event="function" value="houseDoorList"/>
 	<talkaction words="aleta sio" filter="word-spaced" event="function" value="houseGuestList"/>
 	<talkaction words="aleta som" filter="word-spaced" event="function" value="houseSubOwnerList"/>
-	<talkaction words="alito sio" filter="word-spaced" event="script" value="leavehouse.lua"/>
+	<talkaction words="!leavehouse" filter="word-spaced" event="script" value="leavehouse.lua"/>
 
 	<!-- Guilds -->
 	<talkaction words="!createguild;/createguild" event="function" value="guildCreate"/>
