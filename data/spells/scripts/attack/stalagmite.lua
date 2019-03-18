@@ -1,4 +1,5 @@
 local combat = createCombatObject()
+
 setCombatParam(combat, COMBAT_PARAM_TARGETCASTERORTOPMOST, true)
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_EARTHDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_STONES)
