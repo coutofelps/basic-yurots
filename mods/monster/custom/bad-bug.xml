@@ -17,13 +17,13 @@
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
 		<flag skull="red"/>
-</flags>
+	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="23" attack="9"/>
 	</attacks>
 	<defenses armor="2" defense="3"/>
 	<elements>
-	<element firePercent="-10"/>
+		<element firePercent="-10"/>
 	</elements>
 	<loot>
 		<item id="3976" countmax="10" chance="50000"/>
