@@ -19,4 +19,5 @@ New commits
 - Indent and fix all possible bugs on data/npc folder [DONE];
 - Indent and fix all possible bugs on data/spells folder [DONE];
 - Indent and fix all possible bugs on data/talkactions folder [DONE, but can need some correction];
-- Indent and fix all possible bugs on data/weapons folder [DONE].
+- Indent and fix all possible bugs on data/weapons folder [DONE];
+- Indent and fix all possible bugs on mods folder [DONE].
