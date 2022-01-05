@@ -14,7 +14,7 @@ An open Tibia server project based on Yurots 1.2, made by Yures. The objective o
 
 ## Authors
 
-* **Marcos Couto**.
+* **Marcos Felipe**.
 
 See also the list of [contributors](https://github.com/marcoscouto10/original-open-tibia-yurots) who participated in this project.
 
