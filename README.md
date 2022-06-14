@@ -25,6 +25,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Future Updates
 
 * Change the C++ language of compiled sources
-* Fix all bugs, including code bugs and map bugs
+* Fix all bugs, including code and map bugs
 * Improve the map
 * And much more! :)
