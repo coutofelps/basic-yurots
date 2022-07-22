@@ -120,8 +120,8 @@ sqlType = "mysql"
 sqlHost = "localhost"
 sqlPort = 3306
 sqlUser = "root"
-sqlPass = ""
-sqlDatabase = "original-yurots-project"
+sqlPass = "root"
+sqlDatabase = "oot-yurots"
 sqlFile = ""
 sqlKeepAlive = 0
 mysqlReadTimeout = 10
@@ -143,7 +143,7 @@ guildNameMaxLength = 20
 
 -- Highscores
 highscoreDisplayPlayers = 15
-updateHighscoresAfterMinutes = 60
+updateHighscoresAfterMinutes = 20
 
 -- Houses
 buyableAndSellableHouses = true
@@ -166,7 +166,7 @@ hotkeyAimbotEnabled = true
 -- Map
 -- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
 mapName = "original-yurots-project-map.otbm"
-mapAuthor = "Marcos Couto"
+mapAuthor = "Nightsworder"
 randomizeTiles = true
 storeTrash = true
 cleanProtectedZones = true
@@ -260,11 +260,11 @@ eachBlessReduction = 8
 -- NOTE: experienceStages configuration is located in data/XML/stages.xml.
 -- rateExperienceFromPlayers 0 to disable.
 experienceStages = false
-rateExperience = 15000.0
+rateExperience = 150000.0
 rateExperienceFromPlayers = 0
-rateSkill = 3000.0
-rateMagic = 300.0
-rateLoot = 5.0
+rateSkill = 30000.0
+rateMagic = 3000.0
+rateLoot = 25.0
 rateSpawn = 1
 
 -- Monster rates
@@ -330,9 +330,9 @@ teleportPlayerSummons = false
 
 -- Status
 statusPort = 7171
-ownerName = "Marcos Couto"
-ownerEmail = ""
-url = ""
+ownerName = "Nightsworder"
+ownerEmail = "contact@arcaniayurots.com"
+url = "https://arcaniayurots.com/"
 location = "Brazil"
 displayGamemastersWithOnlineCommand = false
 

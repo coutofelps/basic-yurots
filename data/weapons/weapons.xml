@@ -387,6 +387,7 @@
  	<!-- Ammunition -->
 	<distance id="2545" event="script" value="poison-arrow.lua"/>
 	<distance id="2546" event="script" value="burst-arrow.lua"/>
+	<distance id="7838" event="script" value="flash-arrow.lua"/>
 	<distance id="7366" event="script" value="viper-star.lua"/>
 	<distance id="7838" type="energy" event="function" value="default"/>
 	<distance id="7839" type="ice" event="function" value="default"/>
