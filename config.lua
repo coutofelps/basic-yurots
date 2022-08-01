@@ -53,7 +53,7 @@ autoBanishUnknownBytes = false
 -- loginProtectionPeriod is the famous Tibia anti-magebomb system.
 -- deathLostPercent set to nil enables manual mode.
 worldType = "open"
-protectionLevel = 50
+protectionLevel = 8
 pvpTileIgnoreLevelAndVocationProtection = true
 pzLocked = 60 * 1000
 huntingDuration = 60 * 1000
@@ -90,12 +90,12 @@ loginTries = 10
 retryTimeout = 5 * 1000
 loginTimeout = 60 * 1000
 maxPlayers = 1000
-motd = "Welcome to Original Yurots Server!"
+motd = "Welcome to the Yurots Server!"
 displayOnOrOffAtCharlist = false
 onePlayerOnlinePerAccount = true
 allowClones = false
 serverName = "Yurots"
-loginMessage = "Welcome to Original Yurots Server!"
+loginMessage = "Welcome to Yurots Server!"
 statusTimeout = 5 * 60 * 1000
 replaceKickOnLogin = true
 forceSlowConnectionsToDisconnect = false
@@ -118,7 +118,7 @@ rsaPrivate = "467303302235841186221601800150368321487329868085193446752105552629
 -- encryptionType can be plain, md5, sha1, sha256, sha512 or vahash.
 sqlType = "mysql"
 sqlHost = "localhost"
-sqlPort = 3306
+sqlPort = 3307
 sqlUser = "root"
 sqlPass = "root"
 sqlDatabase = "oot-yurots"
@@ -136,14 +136,14 @@ maxDeathRecords = 5
 
 -- Guilds
 ingameGuildManagement = true
-levelToFormGuild = 100
+levelToFormGuild = 150
 premiumDaysToFormGuild = 0
 guildNameMinLength = 4
 guildNameMaxLength = 20
 
 -- Highscores
-highscoreDisplayPlayers = 15
-updateHighscoresAfterMinutes = 20
+highscoreDisplayPlayers = 50
+updateHighscoresAfterMinutes = 10
 
 -- Houses
 buyableAndSellableHouses = true
@@ -153,7 +153,7 @@ levelToBuyHouse = 100
 housesPerAccount = 0
 houseRentAsPrice = false
 housePriceAsRent = false
-housePriceEachSquare = 10000
+housePriceEachSquare = 100000
 houseRentPeriod = "never"
 houseCleanOld = 0
 guildHalls = false
@@ -262,10 +262,10 @@ eachBlessReduction = 8
 experienceStages = false
 rateExperience = 150000.0
 rateExperienceFromPlayers = 0
-rateSkill = 30000.0
-rateMagic = 3000.0
-rateLoot = 25.0
-rateSpawn = 1
+rateSkill = 99999.0
+rateMagic = 99999.0
+rateLoot = 5.0
+rateSpawn = 2
 
 -- Monster rates
 rateMonsterHealth = 1.0
