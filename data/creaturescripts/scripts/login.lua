@@ -52,6 +52,7 @@ function onLogin(cid)
 	registerCreatureEvent(cid, "ReportBug")
 	registerCreatureEvent(cid, "FirstItems")
 	registerCreatureEvent(cid, "AdvanceSave")
+	registerCreatureEvent(cid, "AdvanceFillHPMP")
 
 	return true
 end

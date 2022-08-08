@@ -10,7 +10,8 @@ setCombatFormula(combat, COMBAT_FORMULA_SKILL, 1, 0, 1, 0)
 local area = createCombatArea({
     {1, 1, 1},
     {1, 3, 1},
-{1, 1, 1}})
+    {1, 1, 1}
+})
 
 setCombatArea(combat, area)
 

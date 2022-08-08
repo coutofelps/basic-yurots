@@ -13450,7 +13450,7 @@
 	<item id="7838" article="a" name="flash arrow" plural="flash arrows">
 		<attribute key="weight" value="70" />
 		<attribute key="slotType" value="ammo" />
-		<attribute key="attack" value="55" />
+		<attribute key="attack" value="95" />
 		<attribute key="maxHitChance" value="90" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="ammoType" value="arrow" />

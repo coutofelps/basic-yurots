@@ -520,8 +520,8 @@
 		<monster name="Polar Bear" x="0" y="1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="163" centery="47" centerz="7" radius="12">
-		<monster name="Winter Wolf" x="-4" y="-8" z="7" spawntime="60" />
-		<monster name="Wolf" x="9" y="-6" z="7" spawntime="60" />
+		<monster name="Winter Wolf" x="-5" y="-8" z="7" spawntime="60" />
+		<monster name="Wolf" x="8" y="-5" z="7" spawntime="60" />
 		<monster name="Training Monk" x="6" y="-3" z="7" spawntime="60" />
 		<monster name="Training Monk" x="6" y="-1" z="7" spawntime="60" />
 		<npc name="Obi" x="10" y="-1" z="7" spawntime="20" />
@@ -549,8 +549,8 @@
 		<monster name="Polar Bear" x="-2" y="0" z="7" spawntime="60" />
 		<monster name="Polar Bear" x="-2" y="3" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="163" centery="61" centerz="7" radius="1">
-		<npc name="Johnny" x="0" y="0" z="7" spawntime="20" />
+	<spawn centerx="165" centery="61" centerz="7" radius="1">
+		<npc name="Johnny" x="-1" y="0" z="7" spawntime="20" />
 	</spawn>
 	<spawn centerx="175" centery="65" centerz="7" radius="1">
 		<npc name="Varkhal" x="0" y="-1" z="7" spawntime="20" />
