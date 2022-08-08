@@ -90,12 +90,12 @@ loginTries = 10
 retryTimeout = 5 * 1000
 loginTimeout = 60 * 1000
 maxPlayers = 1000
-motd = "Welcome to the Yurots Server!"
+motd = "Welcome to the Base Yurots Server!"
 displayOnOrOffAtCharlist = false
 onePlayerOnlinePerAccount = true
 allowClones = false
 serverName = "Yurots"
-loginMessage = "Welcome to Yurots Server!"
+loginMessage = "Welcome to the Base Yurots Server!"
 statusTimeout = 5 * 60 * 1000
 replaceKickOnLogin = true
 forceSlowConnectionsToDisconnect = false
@@ -117,11 +117,11 @@ rsaPrivate = "467303302235841186221601800150368321487329868085193446752105552629
 -- To disable sqlKeepAlive such as mysqlReadTimeout use 0 value.
 -- encryptionType can be plain, md5, sha1, sha256, sha512 or vahash.
 sqlType = "mysql"
-sqlHost = "localhost"
-sqlPort = 3307
+sqlHost = "127.0.0.1"
+sqlPort = 3356
 sqlUser = "root"
 sqlPass = "root"
-sqlDatabase = "oot-yurots"
+sqlDatabase = "baseyurots"
 sqlFile = ""
 sqlKeepAlive = 0
 mysqlReadTimeout = 10
@@ -165,7 +165,7 @@ hotkeyAimbotEnabled = true
 
 -- Map
 -- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
-mapName = "original-yurots-project-map.otbm"
+mapName = "base-yurots-project-map.otbm"
 mapAuthor = "Nightsworder"
 randomizeTiles = true
 storeTrash = true
@@ -331,8 +331,8 @@ teleportPlayerSummons = false
 -- Status
 statusPort = 7171
 ownerName = "Nightsworder"
-ownerEmail = "contact@arcaniayurots.com"
-url = "https://arcaniayurots.com/"
+ownerEmail = "contactme@nightsworder.com"
+url = "https://baseyurots.com/"
 location = "Brazil"
 displayGamemastersWithOnlineCommand = false
 

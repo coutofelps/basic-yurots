@@ -18,11 +18,11 @@
 
 	<channel id="5" level="2" name="Game-Chat"/>
 
-	<channel conditionId="2" conditionMessage="You may only place one offer in two minutes." id="6" level="8" muted="120" name="Trade">
+	<channel conditionId="2" conditionMessage="You may only place one offer in two minutes." id="6" level="50" muted="120" name="Advertising">
 		<vocation id="1-8"/>
 	</channel>
 
-	<channel conditionId="3" conditionMessage="You may only place one offer in two minutes." id="7" level="2" muted="120" name="Trade-Rookgaard">
+	<channel conditionId="3" conditionMessage="You may only place one offer in two minutes." id="7" level="2" muted="120" name="Advertising - Rookgaard">
 		<vocation id="0"/>
 	</channel>
 
