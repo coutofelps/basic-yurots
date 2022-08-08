@@ -90,12 +90,12 @@ loginTries = 10
 retryTimeout = 5 * 1000
 loginTimeout = 60 * 1000
 maxPlayers = 1000
-motd = "Welcome to the Base Yurots Server!"
+motd = "Welcome to the Basic Yurots Server!"
 displayOnOrOffAtCharlist = false
 onePlayerOnlinePerAccount = true
 allowClones = false
 serverName = "Yurots"
-loginMessage = "Welcome to the Base Yurots Server!"
+loginMessage = "Welcome to the Basic Yurots Server!"
 statusTimeout = 5 * 60 * 1000
 replaceKickOnLogin = true
 forceSlowConnectionsToDisconnect = false
@@ -120,8 +120,8 @@ sqlType = "mysql"
 sqlHost = "127.0.0.1"
 sqlPort = 3356
 sqlUser = "root"
-sqlPass = "root"
-sqlDatabase = "baseyurots"
+sqlPass = "rootPassword"
+sqlDatabase = "basicyurots"
 sqlFile = ""
 sqlKeepAlive = 0
 mysqlReadTimeout = 10
@@ -165,7 +165,7 @@ hotkeyAimbotEnabled = true
 
 -- Map
 -- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
-mapName = "base-yurots-project-map.otbm"
+mapName = "yurots-map.otbm"
 mapAuthor = "Nightsworder"
 randomizeTiles = true
 storeTrash = true
@@ -332,7 +332,7 @@ teleportPlayerSummons = false
 statusPort = 7171
 ownerName = "Nightsworder"
 ownerEmail = "contactme@nightsworder.com"
-url = "https://baseyurots.com/"
+url = "https://basicyurots.com/"
 location = "Brazil"
 displayGamemastersWithOnlineCommand = false
 
