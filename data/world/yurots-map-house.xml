@@ -5,10 +5,10 @@
 	<house name="" houseid="3" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="21" />
 	<house name="" houseid="4" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="13" />
 	<house name="" houseid="5" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="11" />
-	<house name="" houseid="6" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="12" />
+	<house name="" houseid="6" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="24" />
 	<house name="" houseid="7" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="12" />
 	<house name="" houseid="8" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="45" />
-	<house name="" houseid="9" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="247" />
+	<house name="" houseid="9" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="261" />
 	<house name="" houseid="10" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30" />
 	<house name="" houseid="11" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
 	<house name="" houseid="12" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
@@ -49,15 +49,15 @@
 	<house name="" houseid="55" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="8" />
 	<house name="" houseid="56" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="17" />
 	<house name="" houseid="57" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
-	<house name="" houseid="58" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="12" />
-	<house name="" houseid="59" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30" />
-	<house name="" houseid="60" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30" />
-	<house name="" houseid="61" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="42" />
-	<house name="" houseid="62" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="42" />
-	<house name="" houseid="63" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30" />
-	<house name="" houseid="64" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
-	<house name="" houseid="65" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15" />
-	<house name="" houseid="66" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="27" />
+	<house name="" houseid="58" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
+	<house name="" houseid="59" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28" />
+	<house name="" houseid="60" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28" />
+	<house name="" houseid="61" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="38" />
+	<house name="" houseid="62" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="38" />
+	<house name="" houseid="63" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28" />
+	<house name="" houseid="64" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="13" />
+	<house name="" houseid="65" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="13" />
+	<house name="" houseid="66" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25" />
 	<house name="" houseid="67" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="12" />
 	<house name="" houseid="68" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="9" />
 	<house name="" houseid="69" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="11" />
@@ -65,7 +65,7 @@
 	<house name="" houseid="71" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37" />
 	<house name="" houseid="72" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="45" />
 	<house name="" houseid="73" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37" />
-	<house name="" houseid="74" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="86" />
+	<house name="" houseid="74" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="85" />
 	<house name="" houseid="75" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="37" />
 	<house name="" houseid="76" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="33" />
 	<house name="" houseid="77" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26" />
